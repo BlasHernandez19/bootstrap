@@ -1,0 +1,87 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+@media (min-width: 768px) {
+    .container-fluid {
+        background-color: whitesmoke;
+
+        .tablet {
+            display: none;
+        }
+
+        .caritassm {
+            display: none;
+        }
+
+        .mobile {
+            display: none;
+        }
+
+        .caritasxs {
+            display: none;
+        }
+    }
+}
+
+@include media-breakpoint-only(sm) {
+    .container-fluid {
+        .columna1xd {
+            display: none;
+        }
+
+        .desktop {
+            display: none;
+        }
+
+        .caritasxl {
+            display: none;
+        }
+
+        .mobile {
+            display: none;
+        }
+
+        .caritasxs {
+            display: none;
+        }
+
+
+    }
+}
+
+@include media-breakpoint-only(xs) {
+
+    .footer {
+        display: none;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    .caritassm {
+        display: none;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .caritasxl {
+        display: none;
+    }
+
+    .a {
+        width: 49vw;
+    }
+
+    .b {
+        width: 49vw;
+    }
+
+    .b2 {
+        display: none;
+    }
+}
